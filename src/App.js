@@ -14,7 +14,6 @@ function App() {
     // setting their state to isFetching:true
     const initDB = async () => {
       const _db = await initializeDB();
-      // console.log("_DB", _db)
       setDb(_db);
     };
     initDB();
